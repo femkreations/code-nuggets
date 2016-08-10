@@ -1,0 +1,12 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+#canvas p:first-letter{
+	float:left;
+	font-size:4em;
+	font-family: Georgia, Times, serif;
+	font-weight:bold;
+	margin:0 5px 5px 0;
+	color:maroon;
+	line-height:.7em;
+}

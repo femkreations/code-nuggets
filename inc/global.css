@@ -1,0 +1,342 @@
+/** Global style sheet for the blog post projects */
+
+/* Colors Used on the site:
+Orange: #E85D24;
+Teal: #009875;
+Pink: #CF1B6F;
+
+Black Brown: #3d350e;
+Dark Brown: #4C3A38;
+Medium Brown: #69504C;
+Light Brown:#A5948D;
+
+*/
+html{
+	width:100%;
+	height:100%;
+}
+body {
+	color:#3d350e; 
+	font:100%/1.4em 'Raleway', sans-serif;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+a {
+	color:#E85D24;
+	text-decoration: none;
+}
+a:hover { 
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+    -o-transition:background 0.2s linear;
+	text-decoration: underline;
+}
+blockquote { 
+	background:#E2DBD1;
+	border-left:7px solid #D1BFA6;
+	color:#7c6340;
+	font: 24px 'Lobster', Verdana, Geneva, sans-serif; 
+	margin: 0 25px;
+}
+blockquote p{ 
+	padding: 15px;
+}
+ul{ margin-left:15px; }
+ol{ padding-left:25px; }
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:bold ;
+	margin:0 auto 0; 
+	text-align:left; 
+	font-size: 30px;
+    line-height: 1.5em;
+} 
+h1 span{
+    color: #E85D24;
+    padding: 10px 0;
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-shadow: -1px -1px #ececec;
+    text-transform: uppercase;
+} 
+h3 {
+	color:#444;
+	margin:25px 0 15px;
+}
+img {
+	background:#e2dbd1; 
+	border: 1px solid #d1bfa6;
+	margin:0 10px 10px 0; 
+	padding:3px; 
+}
+
+
+/*     MAIN CONTENT    
+---------------------------- */
+#primaryContent h1, 
+#primaryContent h2 {
+	 margin: 10px 0 0;
+	 padding: 0;
+}
+
+.btn-demo {
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #E85D24;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-shadow: -1px -1px #333333;
+    text-transform: uppercase;
+}
+.back-to-site {
+	padding:15px;
+	background:#3d350e;
+	clear:both;
+	color:#fff;
+	height:30px;
+}
+.back-to-site h2 {
+	margin:0;
+}
+.back-to-site a {
+	color:#fff;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.back-header{
+	border-bottom:5px solid #f9f1ed;
+}
+
+
+/*      SIDEBAR          
+----------------------------*/
+#secondaryContent h3 {
+	margin: 10px 0 0;
+	padding: 0;
+}
+#secondaryContent ul { 
+	color:#666;
+	font: 16px 'Raleway', sans-serif; 
+	list-style:none; 
+	margin: 15px 0 30px;
+} 
+#secondaryContent > ul { 
+	list-style: none;
+}
+#secondaryContent > ul a {
+	color: #393939;
+}
+#secondaryContent > ul > li {
+	font: 28px 'Lobster', Verdana, Geneva, sans-serif; 
+	margin: 0 0 10px; 
+	text-shadow:1px 1px #FFF;
+}
+#secondaryContent li { 
+	border-bottom: 1px dotted #D1BFA6; 
+	padding:5px 0;
+}
+#secondaryContent .textwidget {
+	font:14px/18px 'Raleway', sans-serif;	
+	text-shadow:none;
+}
+
+/*      FOOTER          
+----------------------------*/
+#footer { 
+	clear: both;
+	padding:20px 15px;
+	border-top:5px solid #f9f1ed;
+	background:#F2EFEC;
+	color:#3d350e;
+	margin:0px auto 0;
+}
+#footer p {
+	font-size:12px;
+}
+#footer a {
+	color:#E85D24;
+}
+/*      LAYOUT          
+----------------------------*/
+.main-header{
+	background:#F2EFEC;
+	padding:15px;
+}
+#canvas {
+	padding:30px 15px;
+	min-height:400px;
+}
+.container {
+	margin: 0 auto;
+	width:80%;
+}
+#header-wrap {
+	margin: 0 auto 10px;
+}
+#primaryContent {
+	clear:both;
+ 	float: left;
+	margin: 20px 60px 0 0;
+	padding: 0 15px 30px 0;
+	width: 680px;
+}
+#secondaryContent {
+	background:#e2dbd1; 
+	border: 1px solid #d1bfa6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius:6px;
+	float: left; 
+	margin: 60px 0 0;
+	padding:20px;
+	width: 178px;	
+}
+.ie6 #secondaryContent {
+	padding:15px;
+}
+
+/*Clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/******************************************************************************
+END OF: BLOG STYLES START HERE 
+******************************************************************************/
+
+@media (max-width: 1024px) { 
+	#canvas {
+	    padding:40px;
+    	width: auto;
+	}
+	#primaryContent {
+		width: 65%;
+	}
+	#secondaryContent {
+	    border-width: 5px;
+    	width: 18%;
+	}	
+	img {
+		margin: 10px 0;
+		height: auto;
+    	max-width: 97%;
+	}
+}
+@media (max-width: 800px) { 
+	.main-menu {
+   		height: auto;
+		text-align: center;
+	}
+	.main-menu ul li {
+    	display: inline;
+    	float: none;
+    }
+    .main-menu ul li {
+    	display: inline-block;
+    }
+    .main-menu li a {
+    	display: inline-block;
+    }
+    .main-menu ul ul {
+    	text-align: left;
+    }
+	#primaryContent {
+		float: none;
+		margin-right: 0;
+		width: auto;
+	}
+	#secondaryContent {
+   		 clear: both;
+   		 width: auto;
+	}
+	#secondaryContent > ul > li {
+  		 float: left;	
+    	 width: 33%;
+    }	 
+	#secondaryContent ul ul {
+   		 float: left;
+    	 width: auto;
+	}
+	#secondaryContent li {
+    	border-bottom: none;
+    } 
+    #secondaryContent li li{
+    	border-bottom: 1px dotted #D1BFA6;
+    }
+	li.postWrapper, div.postWrapper {
+		margin-bottom: 30px;
+	}
+	.pagination-older,
+	.pagination-newer {
+		margin-bottom: 20px;
+	}	
+
+}
+
+
+@media screen and (max-width: 480px) {
+	#canvas {
+		padding:10px;
+	}
+	.main-menu {
+    	height: auto;
+    }	
+	#primaryContent {
+		margin:0;
+	}
+	#secondaryContent {
+    	width: 89%;
+    }
+    #secondaryContent > ul > li {
+    	float: none;
+    	width: auto;
+	}
+	#secondaryContent ul ul {
+   		 float: none;
+	}
+	#site-title a,
+	#site-description  {
+		background:none;
+		font-size:40px;
+    	line-height: 1em;
+	}
+	#site-description  {
+		font-size:25px;
+		margin:10px;
+	}
+	img {
+		margin:0;
+		padding:0;
+		max-width:100%;
+		height:auto;	
+	}
+}
+
+/* 
+ * print styles
+ * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/ 
+ */
+@media print {
+  * { background: transparent !important; color: #444 !important; text-shadow: none !important; }
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a:after { content: " (" attr(href) ")"; } 
+  abbr:after { content: " (" attr(title) ")"; }
+  .ir a:after { content: ""; }  /* Don't show links for images */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */ 
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}

@@ -1,0 +1,13 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+/* NOTE: Classname if for the tooltip NOT the classname of the a tag */
+.tooltip {
+	display:none; 
+	position:absolute;
+	border:1px solid #acacac;
+	background:#373737;
+	padding:20px;
+	border-radius:10px;
+	color:#fff;
+}
