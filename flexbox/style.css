@@ -1,0 +1,17 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+.subheads{
+	flex: 1;
+    display: flex;
+    overflow: auto;
+ }
+
+
+.solutions-subhead{
+	flex: 1 1 30%;
+	width:300px;
+	background:#dcdcdc;
+	padding:10px;
+	margin:0 10px;
+}

@@ -1,0 +1,13 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+.circle{
+	width:225px;
+	height:207px;
+	float:left;
+	margin-right:15px;
+	-webkit-shape-outside:circle();
+  	shape-outside:circle();
+  	background:none;
+  	border:none;
+}

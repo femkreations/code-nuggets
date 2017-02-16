@@ -10,13 +10,12 @@
 
 <h3>Liked this article and think your next project could benefit from my skill set? <strong><a href="http://www.femkreations.com/contact/">Hire Me!</a></strong><h3>
 
-<h3>Wanna learn more about this? Sign up for my <strong><a href="http://www.femkreations.com/join-coding-circle/">weekly newsletter</a></strong>, for exclusive articles and code snippets to help you code websites faster and better </h3>
+<h3>Wanna learn more?  Sign up for <em>FREE</em> <a href="http://www.femkreations.com/get-code-savvy/">resources</a> that empower creatives with the WordPress and website skills.</h3>
 
-<p>Copyright © 2007-2016 <a href="http://femkreations.com">femKreations aka Femy Praseeth</a><br>
+<p>Copyright © 2007-2017 <a href="http://femkreations.com">femKreations aka Femy Praseeth</a><br>
 
 You're welcome to use the code snippets on this blog, for your projects. 
-A link back to <a href="http://femkreations.com">femKreations</a> is highly appreciated! 
-Republishing posts in their entirety is prohibited without permission. 
+A link back to <a href="http://femkreations.com">femKreations</a> is highly appreciated!  
 </p>
 </div>
 
