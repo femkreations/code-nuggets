@@ -1,25 +1,22 @@
 <!doctype html> 
-<html>
+<html lang="en">
 <head>
 	<?php include("../inc/meta.php") ?>
     
     <link rel="stylesheet" href="style.css" type="text/css">
-  	<title>Super Mario</title>
+  	<title>Functions in JS</title>
   
-<?php include("../inc/header.php") ?>
+    <?php include("../inc/header.php") ?>
     
+    <h1><span>Functions</span></h1>
 
-	
-    <h1><span>Lets play with Super Mario</span></h1>
-
-    </div>
+   
+</div>
 
 <div id="canvas" class="container group">
     
-    
     <div id="primaryContent" class="group">
-       <p> Move Mario Move! Use the left, right, up, down arrow keys!</p>
-        <img src="http://i71.photobucket.com/albums/i129/Sarad_Thamia/Mario.jpg "/>
+       <p> content goes here</p>
         
     </div> <!-- main content -->
     <!--
@@ -28,10 +25,10 @@
     
     </div><!-- right col content --> 
     
-    </div>
+</div>
    
    
-	<?php include("../inc/footer.php") ?> 
+<?php include("../inc/footer.php") ?> 
     
     
     

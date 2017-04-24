@@ -2,10 +2,18 @@
 BLOG SPECIFIC STYLES START HERE 
 ******************************************************************************/
 
-img {
-    position: relative;
-    left: 10px;
-    top: 10px;
-    background:none;
-    border:none;
+.cake{
+  fill: orange;
+  color: orange;
+}
+.cake2{
+  fill: pink;
+  color: teal;
+}
+.cake3{
+  fill: blue;
+  color: orange;
+}
+.cakebase{
+  fill: currentColor;
 }

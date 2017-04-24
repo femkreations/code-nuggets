@@ -2,8 +2,6 @@
 
 
 function preventEventHandlers(){
-	
-	
 	document.getElementById("frmContact").onsubmit= function(){
 		var myErrorMessage=document.getElementById("errorMessage");
 		if(document.getElementById("name").value == ""){
