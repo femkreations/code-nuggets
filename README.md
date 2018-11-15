@@ -1,5 +1,5 @@
 # projects-femKreations
-Code Experiments and Nuggets from Client Work - Posted on Code Blog on femKreations site
+Code Experiments and Nuggets from Client Work - Posted on my blog on femKreations site
 
 This folder contains all the projects I have posted on my code blog http://www.femkreations.com/blog/
 
